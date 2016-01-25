@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * Rukhsar-CmsMenu - Magento Extension
+ *
+ * @copyright Copyright (c) 2016 Rukhsar Manzoor (http://www.rukhsar.me.uk/)
+ * @author Rukhsar Manzoor - rukhsar.man@gmail.com
+ *
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <rukhsar_cmsmenu translate="title" module="rukhsar_cmsmenu">
+                                        <title>Rukhsar - CMS Menu</title>
+                                        <sort_order>50</sort_order>
+                                    </rukhsar_cmsmenu>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

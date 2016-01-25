@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * Rukhsar-CmsMenu - Magento Extension
+ *
+ * @copyright Copyright (c) 2016 Rukhsar Manzoor (http://www.rukhsar.me.uk/)
+ * @author Rukhsar Manzoor - rukhsar.man@gmail.com
+ *
+ */
+-->
+<layout version="0.1.0">
+
+    <default>
+        <reference name="catalog.topnav.renderer">
+            <action ifconfig="rukhsar_cmsmenu/general/show_view_all" method="setTemplate">
+                <name>rukhsar/cmsmenu/page/html/topmenu/renderer.phtml</name>
+            </action>
+        </reference>
+    </default>
+
+</layout>

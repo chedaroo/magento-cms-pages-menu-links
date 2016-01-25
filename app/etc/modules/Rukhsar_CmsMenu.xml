@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * Rukhsar-CmsMenu - Magento Extension
+ *
+ * @copyright Copyright (c) 2016 Rukhsar Manzoor (http://www.rukhsar.me.uk/)
+ * @author Rukhsar Manzoor - rukhsar.man@gmail.com
+ *
+ */
+-->
+<config>
+    <modules>
+        <Rukhsar_CmsMenu>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Rukhsar_CmsMenu>
+    </modules>
+</config>
